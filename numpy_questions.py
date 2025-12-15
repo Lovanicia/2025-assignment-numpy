@@ -43,8 +43,6 @@ def max_index(X):
         raise ValueError("X must be a numpy ndarray")
     if X.ndim != 2:
         raise ValueError("X must be a 2D array")
-
-    i, j = 0, 0
     max_val = X[0, 0]
 
     n_rows, n_cols = X.shape
